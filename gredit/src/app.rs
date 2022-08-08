@@ -34,13 +34,13 @@ pub struct MatchItem {
 }
 
 pub struct App {
-    pub items: Vec<MatchItem>,
-    pub list_state: ListState,
+    items: Vec<MatchItem>,
+    list_state: ListState,
 }
 
 
 impl App {
-    pub fn up(&mut self) {
+    fn up(&mut self) {
         self.list_state.select(
             Some(
                 match self.list_state.selected().unwrap() {
@@ -51,7 +51,7 @@ impl App {
         );
     }
 
-    pub fn down(&mut self) {
+    fn down(&mut self) {
         let curr = self.list_state.selected().unwrap();
         self.list_state.select(
             Some(
@@ -71,28 +71,88 @@ impl App {
         }
     }
 
-    fn render_plain_block<B: Backend>(&mut self, term: &mut Terminal<B>) ->  Result<(), Box<dyn Error>> {
-        term.draw(|mut f| {
-            f.render_widget(Block::default(), f.size());
-        });
-
-        Ok(())
-    }
-
-    pub fn open_file<B: Backend>(
+    fn open_file(
         &mut self, 
-        term: &mut Terminal<B>
     ) -> Result<(), Box<dyn Error>> {
 
         edit_file("hello.py");
+        let mut stdout = io::stdout();
+        execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
 
-        // self.render_plain_block(term);
+        Ok(())
+    }
+
+    pub fn run(&mut self) -> Result<(), Box<dyn Error>>{
+        enable_raw_mode()?;
+
+        let mut stdout = io::stdout();
+
+        execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
+        let backend = CrosstermBackend::new(stdout);
+        let mut terminal = Terminal::new(backend)?;
+
+        self.draw(&mut terminal)?;
+
+        info!("Entering main loop");
+
+        loop {
+            let message = crossterm::event::read();
+
+            match message.unwrap() {
+                Event::Key(key_event) => {
+                    if key_event.modifiers.is_empty() {
+                        match key_event.code {
+                            KeyCode::Up => {
+                                info!("Pressed UP");
+                                self.up();
+                            },
+                            KeyCode::Down => {
+                                info!("Pressed Down");
+                                self.down();
+                            },
+                            KeyCode::Enter => {
+                                info!("Pressed Enter");
+
+                                self.open_file();
+
+                                let mut stdout = io::stdout();
+                                execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
+                                terminal.clear();
+
+
+
+                            },
+                            _ => {}
+                        }
+                        self.draw(&mut terminal)?;
+
+                    } else if key_event.modifiers == KeyModifiers::CONTROL {
+                        break;
+                    }
+                }
+                Event::Resize(_width, _height) => {
+                    self.draw(&mut terminal)?;
+                }
+                _ => {}
+            }
+        }
+
+        disable_raw_mode()?;
+
+        execute!(
+            terminal.backend_mut(),
+            LeaveAlternateScreen,
+            DisableMouseCapture
+        )?;
+
+        terminal.show_cursor()?;
 
         Ok(())
 
+
     }
 
-    pub fn draw<B: Backend>(&mut self, term: &mut Terminal<B>) -> Result<(), Box<dyn Error>> {
+    fn draw<B: Backend>(&mut self, term: &mut Terminal<B>) -> Result<(), Box<dyn Error>> {
         term.draw(|mut f| {
 
             let chunks = Layout::default()
@@ -134,7 +194,6 @@ impl App {
 
         Ok(())
     }
-    
 }
 
 
