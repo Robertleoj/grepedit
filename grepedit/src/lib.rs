@@ -78,10 +78,11 @@ pub fn run() -> Result<(), Box<dyn Error>> {
     let ui_events_receiver = setup_ui_events();
 
     enable_raw_mode()?;
-    let mut stdout = io::stdout();
-    execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
 
-    let backend = CrosstermBackend::new(stdout);
+    let mut stdout = io::stdout();
+
+    execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
+    let mut backend = CrosstermBackend::new(stdout);
     let mut terminal = Terminal::new(backend)?;
 
 
@@ -113,6 +114,13 @@ pub fn run() -> Result<(), Box<dyn Error>> {
                                 KeyCode::Enter => {
                                     info!("Pressed Enter");
                                     app.open_file(&mut terminal);
+
+                                    let mut stdout = io::stdout();
+                                    execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
+                                    backend = CrosstermBackend::new(stdout);
+                                    terminal = Terminal::new(backend)?;
+
+
                                 },
                                 _ => {}
                             }

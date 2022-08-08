@@ -9,6 +9,7 @@ use tui::{
     style::{Color, Style, Modifier}
 };
 
+use std::io;
 use crossterm::{
     self,
     event::{self, DisableMouseCapture, EnableMouseCapture, Event, KeyCode, KeyModifiers},
@@ -54,7 +55,7 @@ impl App {
         let curr = self.list_state.selected().unwrap();
         self.list_state.select(
             Some(
-                min(self.items.len(), curr + 1)
+                min(self.items.len() - 1, curr + 1)
             )
         );
     }
@@ -70,21 +71,26 @@ impl App {
         }
     }
 
-    pub fn open_file<B: Backend>(&mut self, term: &mut Terminal<B>) -> Result<(), Box<dyn Error>>{
+    fn render_plain_block<B: Backend>(&mut self, term: &mut Terminal<B>) ->  Result<(), Box<dyn Error>> {
+        term.draw(|mut f| {
+            f.render_widget(Block::default(), f.size());
+        });
 
-        
+        Ok(())
+    }
+
+    pub fn open_file<B: Backend>(
+        &mut self, 
+        term: &mut Terminal<B>
+    ) -> Result<(), Box<dyn Error>> {
+
         disable_raw_mode()?;
-
-        // execute!(
-        //     terminal.backend_mut(),
-        //     LeaveAlternateScreen,
-        //     DisableMouseCapture
-        // )?;
 
         edit_file("hello.py");
 
         enable_raw_mode()?;
-        self.draw(term);
+
+        self.render_plain_block(term);
 
         Ok(())
 
