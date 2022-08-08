@@ -9,6 +9,15 @@ use tui::{
     style::{Color, Style, Modifier}
 };
 
+use crossterm::{
+    self,
+    event::{self, DisableMouseCapture, EnableMouseCapture, Event, KeyCode, KeyModifiers},
+    execute,
+    terminal::{disable_raw_mode, enable_raw_mode, EnterAlternateScreen, LeaveAlternateScreen},
+};
+
+use edit::edit_file;
+
 use std::error::Error;
 use std::cmp::{min, max};
 
@@ -50,6 +59,7 @@ impl App {
         );
     }
 
+
     pub fn new(items: Vec<MatchItem>) -> Self {
         let mut state = ListState::default();
         state.select(Some(0));
@@ -58,6 +68,26 @@ impl App {
             items: items,
             list_state: state
         }
+    }
+
+    pub fn open_file<B: Backend>(&mut self, term: &mut Terminal<B>) -> Result<(), Box<dyn Error>>{
+
+        
+        disable_raw_mode()?;
+
+        // execute!(
+        //     terminal.backend_mut(),
+        //     LeaveAlternateScreen,
+        //     DisableMouseCapture
+        // )?;
+
+        edit_file("hello.py");
+
+        enable_raw_mode()?;
+        self.draw(term);
+
+        Ok(())
+
     }
 
     pub fn draw<B: Backend>(&mut self, term: &mut Terminal<B>) -> Result<(), Box<dyn Error>> {
@@ -104,7 +134,6 @@ impl App {
     }
     
 }
-
 
 
 

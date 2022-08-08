@@ -8,6 +8,7 @@ macro_rules! strvec {
 }
 
 
+
 use crossterm::{
     self,
     event::{self, DisableMouseCapture, EnableMouseCapture, Event, KeyCode, KeyModifiers},
@@ -111,6 +112,7 @@ pub fn run() -> Result<(), Box<dyn Error>> {
                                 },
                                 KeyCode::Enter => {
                                     info!("Pressed Enter");
+                                    app.open_file(&mut terminal);
                                 },
                                 _ => {}
                             }
