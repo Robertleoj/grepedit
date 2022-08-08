@@ -464,3 +464,14 @@
 2022-08-08 22:24:16.808144353 [INFO] <gredit::app:181>:Pressed Down
 2022-08-08 22:24:16.942516169 [INFO] <gredit::app:181>:Pressed Down
 2022-08-08 22:24:17.794508842 [INFO] <gredit::app:185>:Pressed Enter
+2022-08-08 22:29:50.820174775 [INFO] <gredit::app:167>:Entering main loop
+2022-08-08 22:29:52.070256234 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:29:52.233188493 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:29:52.385074667 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:29:52.529064178 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:29:52.669888659 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:29:52.872219890 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:29:53.027178785 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:29:53.192084652 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:29:53.331224597 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:29:53.611297418 [INFO] <gredit::app:185>:Pressed Enter

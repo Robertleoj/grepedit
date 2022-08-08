@@ -6,6 +6,7 @@ use gredit::config;
 use std::process;
 
 use gredit::build_log_config;
+
 #[macro_use]
 extern crate simple_log;
 

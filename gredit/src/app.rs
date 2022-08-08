@@ -89,7 +89,7 @@ impl<'a> App<'a> {
 
         let curr_list_state = self.list_state.selected().unwrap();
 
-        let mut new_state;
+        let new_state;
         if self.curr_location.result_match_idx == 0 {
             if self.curr_location.result_idx == 0 {
                 return;
@@ -117,7 +117,7 @@ impl<'a> App<'a> {
         let curr = self.list_state.selected().unwrap();
         let res_match_idx = self.curr_location.result_idx;
 
-        let mut new_selected;
+        let new_selected;
         // at the last match of a file
         if self.curr_location.result_match_idx 
             == self.results[res_match_idx].matches.len() - 1 {
@@ -146,7 +146,7 @@ impl<'a> App<'a> {
         &mut self, 
     ) -> Result<(), Box<dyn Error>> {
 
-        edit_file("hello.py");
+        edit_file("hello.py").unwrap();
         let mut stdout = io::stdout();
         execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
 
@@ -184,11 +184,11 @@ impl<'a> App<'a> {
                             KeyCode::Enter => {
                                 info!("Pressed Enter");
 
-                                self.open_file();
+                                self.open_file().unwrap();
 
                                 let mut stdout = io::stdout();
                                 execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
-                                terminal.clear();
+                                terminal.clear().unwrap();
 
                             },
                             KeyCode::Char('q') => {break;},
@@ -223,7 +223,7 @@ impl<'a> App<'a> {
     }
 
     fn draw<B: Backend>(&mut self, term: &mut Terminal<B>) -> Result<(), Box<dyn Error>> {
-        term.draw(|mut f| {
+        term.draw(|f| {
 
             let chunks = Layout::default()
                 .direction(Direction::Horizontal)
@@ -254,7 +254,7 @@ impl<'a> App<'a> {
                 .title("Code")
                 .borders(Borders::ALL);
 
-            f.render_widget(codeblock, chunks[1]);
+            f.render_widget(codeblock, codechunk);
         })?;
 
         Ok(())

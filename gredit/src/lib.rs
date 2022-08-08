@@ -6,10 +6,7 @@ pub mod app;
 pub mod searcher;
 pub mod config;
 
-use config::Config;
 use searcher::search_file;
-
-use std::io;
 
 #[macro_use]
 extern crate simple_log;

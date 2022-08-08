@@ -58,7 +58,7 @@ impl<'a> Sink for MatchSink<'a> {
 
         let mut line_buff = _mat.lines().next().unwrap();
         let mut line = String::new();
-        line_buff.read_to_string(&mut line);
+        line_buff.read_to_string(&mut line).unwrap();
 
         self.matches.push(Match { match_str: line, line_nr: _mat.line_number().unwrap()});
 
