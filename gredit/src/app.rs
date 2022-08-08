@@ -22,54 +22,125 @@ use edit::edit_file;
 use std::error::Error;
 use std::cmp::{min, max};
 
-pub struct Location {
-    pub line_nr: usize,
-    pub file_path: String
-}
+use super::searcher::{
+    FileResult, 
+    Match
+};
+
+// pub struct Location {
+//     pub line_nr: usize,
+//     pub file_path: String
+// }
 
 
-pub struct MatchItem {
-    pub location: Location,
-    pub match_text: String
-}
+// pub struct MatchItem {
+//     pub location: Location,
+//     pub match_text: String
+// }
 
-pub struct App {
-    items: Vec<MatchItem>,
+pub struct App<'a> {
+    results: Vec<FileResult>,
     list_state: ListState,
+    curr_location: Location,
+    list_items: Vec<ListItem<'a>>
+}
+
+struct Location {
+    result_idx: usize,
+    result_match_idx: usize
 }
 
 
-impl App {
+
+impl<'a> App<'a> {
+    pub fn new(items : Vec<FileResult>) ->  App<'a> {
+        let mut state = ListState::default();
+        state.select(Some(1));
+        let location = Location {result_idx: 0, result_match_idx: 0};
+
+        let list_items: Vec<ListItem<'a>> = Self::make_list_items(&items);
+
+        App{
+            results: items,
+            list_state: state,
+            curr_location: location,
+            list_items
+        }
+    }
+
+    fn make_list_items(items: &Vec<FileResult>) -> Vec<ListItem<'a>>{
+        let mut list_items: Vec<ListItem> = Vec::new();
+
+        for res in items {
+            list_items.push(
+                ListItem::new(res.file_path.clone())
+            );
+
+            for m in &res.matches {
+                list_items.push(ListItem::new(format!("{}: {}", m.line_nr.clone(), m.match_str.clone())));
+            }
+        }
+
+        list_items
+    }
+
+
     fn up(&mut self) {
-        self.list_state.select(
-            Some(
-                match self.list_state.selected().unwrap() {
-                    0 => 0,
-                    a => a - 1,
-                }
-            )
-        );
+
+        let curr_list_state = self.list_state.selected().unwrap();
+
+        let mut new_state;
+        if self.curr_location.result_match_idx == 0 {
+            if self.curr_location.result_idx == 0 {
+                return;
+            }
+            new_state = curr_list_state - 2;
+            self.curr_location.result_idx -= 1;
+            self.curr_location.result_match_idx = 
+                self.results[self.curr_location.result_idx].matches.len() - 1;
+
+
+        } else {
+            new_state = curr_list_state - 1;
+            self.curr_location.result_match_idx -= 1;
+        }
+
+        self.list_state.select(Some(
+           new_state 
+        ));
+
     }
 
     fn down(&mut self) {
+
+
         let curr = self.list_state.selected().unwrap();
+        let res_match_idx = self.curr_location.result_idx;
+
+        let mut new_selected;
+        // at the last match of a file
+        if self.curr_location.result_match_idx 
+            == self.results[res_match_idx].matches.len() - 1 {
+            if self.curr_location.result_idx == self.results.len() - 1 {
+                // at the last match in the last file -- do nothing
+                return;
+            }
+
+            new_selected = curr + 2;
+            self.curr_location.result_idx += 1;
+            self.curr_location.result_match_idx = 0;
+        } else {
+            self.curr_location.result_match_idx += 1;
+            new_selected = curr + 1;
+        }
+
         self.list_state.select(
             Some(
-                min(self.items.len() - 1, curr + 1)
+                new_selected
             )
         );
     }
 
-
-    pub fn new(items: Vec<MatchItem>) -> Self {
-        let mut state = ListState::default();
-        state.select(Some(0));
-
-        App{
-            items: items,
-            list_state: state
-        }
-    }
 
     fn open_file(
         &mut self, 
@@ -119,9 +190,8 @@ impl App {
                                 execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
                                 terminal.clear();
 
-
-
                             },
+                            KeyCode::Char('q') => {break;},
                             _ => {}
                         }
                         self.draw(&mut terminal)?;
@@ -170,13 +240,8 @@ impl App {
                 .title("Files")
                 .borders(Borders::ALL);
 
-            let files: Vec<ListItem> = self.items.iter()
-                .map(|i| 
-                    ListItem::new(i.match_text.clone())
-                )
-                .collect();
 
-            let file_list = List::new(files)
+            let file_list = List::new(self.list_items.clone())
                 .block(fileblock)
                 .style(Style::default().fg(Color::White))
                 .highlight_style(Style::default().add_modifier(Modifier::ITALIC))

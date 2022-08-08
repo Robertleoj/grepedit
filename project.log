@@ -359,3 +359,108 @@
 2022-08-08 07:47:27.156331417 [INFO] <gredit::app:114>:Pressed Enter
 2022-08-08 07:48:46.786822015 [INFO] <gredit:15>:started app
 2022-08-08 07:48:46.809391695 [INFO] <gredit::app:96>:Entering main loop
+2022-08-08 07:52:05.984701577 [INFO] <gredit:15>:started app
+2022-08-08 07:52:05.996473510 [INFO] <gredit::app:96>:Entering main loop
+2022-08-08 07:52:06.731631102 [INFO] <gredit::app:114>:Pressed Enter
+2022-08-08 07:52:09.324767525 [INFO] <gredit::app:110>:Pressed Down
+2022-08-08 07:52:09.883102718 [INFO] <gredit::app:114>:Pressed Enter
+2022-08-08 07:52:41.366970808 [INFO] <gredit:15>:started app
+2022-08-08 07:52:41.389570655 [INFO] <gredit::app:96>:Entering main loop
+2022-08-08 19:04:09.800692577 [INFO] <gredit:15>:started app
+2022-08-08 19:04:09.804106952 [INFO] <gredit::app:96>:Entering main loop
+2022-08-08 19:04:11.330056263 [INFO] <gredit::app:110>:Pressed Down
+2022-08-08 19:04:11.520147205 [INFO] <gredit::app:106>:Pressed UP
+2022-08-08 19:04:11.712055197 [INFO] <gredit::app:110>:Pressed Down
+2022-08-08 19:04:11.888070921 [INFO] <gredit::app:106>:Pressed UP
+2022-08-08 19:04:12.103068323 [INFO] <gredit::app:114>:Pressed Enter
+2022-08-08 19:04:44.773869466 [INFO] <gredit:15>:started app
+2022-08-08 19:04:44.780655377 [INFO] <gredit::app:96>:Entering main loop
+2022-08-08 19:04:46.160588652 [INFO] <gredit::app:114>:Pressed Enter
+2022-08-08 19:05:04.861716053 [INFO] <gredit:15>:started app
+2022-08-08 19:05:04.864661235 [INFO] <gredit::app:96>:Entering main loop
+2022-08-08 19:05:05.715144881 [INFO] <gredit::app:114>:Pressed Enter
+2022-08-08 21:12:34.483187694 [INFO] <gredit:61>:started app
+2022-08-08 21:12:34.494277210 [INFO] <gredit::app:96>:Entering main loop
+2022-08-08 21:12:35.751666780 [INFO] <gredit::app:114>:Pressed Enter
+2022-08-08 21:12:59.517548699 [INFO] <gredit:61>:started app
+2022-08-08 21:12:59.528723588 [INFO] <gredit::app:96>:Entering main loop
+2022-08-08 21:41:32.858282350 [INFO] <gredit::app:96>:Entering main loop
+2022-08-08 22:17:56.973147159 [INFO] <gredit::app:167>:Entering main loop
+2022-08-08 22:17:58.437585499 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:17:59.081379121 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:17:59.331091598 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:17:59.551072829 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:17:59.780064085 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:18:00.020946741 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:18:00.245059498 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:18:00.519104139 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:18:00.742240248 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:18:01.025010845 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:18:01.273030558 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:18:01.543057733 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:18:01.775990762 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:18:02.013079412 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:18:02.229181624 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:18:22.855946558 [INFO] <gredit::app:167>:Entering main loop
+2022-08-08 22:18:26.149653322 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:18:26.348042667 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:18:26.535995215 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:18:26.765002255 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:18:27.022861450 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:18:27.292999176 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:18:27.957101454 [INFO] <gredit::app:185>:Pressed Enter
+2022-08-08 22:19:29.739084406 [INFO] <gredit::app:167>:Entering main loop
+2022-08-08 22:19:30.789646900 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:19:31.154523921 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:22:55.937618003 [INFO] <gredit::app:167>:Entering main loop
+2022-08-08 22:22:57.402830782 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:22:58.690805889 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:23:58.337429204 [INFO] <gredit::app:167>:Entering main loop
+2022-08-08 22:23:59.571205268 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:23:59.762024971 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:23:59.947109399 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:00.139973055 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:00.338736655 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:00.922066005 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:01.096947753 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:01.271906488 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:01.419037120 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:01.560973986 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:01.707906127 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:01.900828826 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:02.075074209 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:02.233958454 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:02.386938675 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:02.543037962 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:02.689793109 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:03.167021568 [INFO] <gredit::app:185>:Pressed Enter
+2022-08-08 22:24:05.812248886 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:06.248175518 [INFO] <gredit::app:185>:Pressed Enter
+2022-08-08 22:24:10.488289376 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:10.642180655 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:10.824180258 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:10.983997229 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:11.508196959 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:11.661004474 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:11.850883021 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:12.006080902 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:12.159152131 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:12.456119901 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:12.996195992 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:13.503199220 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:14.241162989 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:14.538945108 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:14.782067873 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:15.099079903 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:15.261069084 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:15.427997898 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:15.579145305 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:15.730895241 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:15.887853439 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:16.067812903 [INFO] <gredit::app:177>:Pressed UP
+2022-08-08 22:24:16.336034546 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:16.495963334 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:16.652948417 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:16.808144353 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:16.942516169 [INFO] <gredit::app:181>:Pressed Down
+2022-08-08 22:24:17.794508842 [INFO] <gredit::app:185>:Pressed Enter

@@ -3,10 +3,34 @@ use simple_log::LogConfigBuilder;
 use std::error::Error;
 pub mod app;
 
+pub mod searcher;
+pub mod config;
+
+use config::Config;
+use searcher::search_file;
+
 use std::io;
 
 #[macro_use]
 extern crate simple_log;
+
+
+pub fn run(config: config::Config) -> Result<(), Box<dyn Error>> {
+
+    let result = search_file(
+        &config.file_path,
+        &config.pattern
+    ).unwrap();
+
+    let mut app = app::App::new(
+        vec![result]
+    );
+
+    app.run()?;
+
+    Ok(())
+}
+
 
 pub fn build_log_config() -> Result<(), Box<dyn Error>>{
     let config = LogConfigBuilder::builder()
@@ -21,30 +45,4 @@ pub fn build_log_config() -> Result<(), Box<dyn Error>>{
     simple_log::new(config)?;
     Ok(())
 }
-
-
-pub fn run() -> Result<(), Box<dyn Error>> {
-    let mut app = app::App::new(vec![
-        app::MatchItem{
-            location: app::Location{
-                line_nr: 10, 
-                file_path: "hello.py".to_string()
-            }, 
-            match_text: "def a():".to_string()
-        },
-        app::MatchItem{
-            location: app::Location{
-                line_nr: 20, 
-                file_path: "index.html".to_string()
-            }, 
-            match_text: "<def>".to_string()
-        },
-    ]);
-
-    app.run()?;
-
-    Ok(())
-}
-
-
 
