@@ -45,16 +45,6 @@ pub fn build_log_config() -> Result<(), Box<dyn Error>>{
     Ok(())
 }
 
-fn setup_ui_events() -> Receiver<Event> {
-    let (sender, receiver) = unbounded();
-
-    thread::spawn( move || loop{
-        sender.send(crossterm::event::read().unwrap());
-    });
-
-    receiver
-}
-
 
 
 pub fn run() -> Result<(), Box<dyn Error>> {
@@ -75,7 +65,7 @@ pub fn run() -> Result<(), Box<dyn Error>> {
         },
     ]);
 
-    let ui_events_receiver = setup_ui_events();
+    // let ui_events_receiver = setup_ui_events();
 
     enable_raw_mode()?;
 
@@ -93,50 +83,50 @@ pub fn run() -> Result<(), Box<dyn Error>> {
     info!("Entering main loop");
 
     loop {
-        select! {
-            // recv(ticker) -> _ => {
-            // }
+        let message = crossterm::event::read();
+        // select! {
 
-            recv(ui_events_receiver) -> message => {
+            // recv(ui_events_receiver) -> message => {
 
-                match message.unwrap() {
-                    Event::Key(key_event) => {
-                        if key_event.modifiers.is_empty() {
-                            match key_event.code {
-                                KeyCode::Up => {
-                                    info!("Pressed UP");
-                                    app.up();
-                                },
-                                KeyCode::Down => {
-                                    info!("Pressed Down");
-                                    app.down();
-                                },
-                                KeyCode::Enter => {
-                                    info!("Pressed Enter");
-                                    app.open_file(&mut terminal);
+        match message.unwrap() {
+            Event::Key(key_event) => {
+                if key_event.modifiers.is_empty() {
+                    match key_event.code {
+                        KeyCode::Up => {
+                            info!("Pressed UP");
+                            app.up();
+                        },
+                        KeyCode::Down => {
+                            info!("Pressed Down");
+                            app.down();
+                        },
+                        KeyCode::Enter => {
+                            info!("Pressed Enter");
 
-                                    let mut stdout = io::stdout();
-                                    execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
-                                    backend = CrosstermBackend::new(stdout);
-                                    terminal = Terminal::new(backend)?;
+                            app.open_file(&mut terminal)?;
+
+                            let mut stdout = io::stdout();
+                            execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
+                            terminal.clear();
 
 
-                                },
-                                _ => {}
-                            }
-                            app.draw(&mut terminal)?;
 
-                        } else if key_event.modifiers == KeyModifiers::CONTROL {
-                            break;
-                        }
+                        },
+                        _ => {}
                     }
-					Event::Resize(_width, _height) => {
-                        app.draw(&mut terminal)?;
-					}
-                    _ => {}
+                    app.draw(&mut terminal)?;
+
+                } else if key_event.modifiers == KeyModifiers::CONTROL {
+                    break;
                 }
             }
+            Event::Resize(_width, _height) => {
+                app.draw(&mut terminal)?;
+            }
+            _ => {}
         }
+            // }
+        // }
     }
 
     disable_raw_mode()?;

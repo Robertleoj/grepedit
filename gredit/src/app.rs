@@ -84,13 +84,9 @@ impl App {
         term: &mut Terminal<B>
     ) -> Result<(), Box<dyn Error>> {
 
-        disable_raw_mode()?;
-
         edit_file("hello.py");
 
-        enable_raw_mode()?;
-
-        self.render_plain_block(term);
+        // self.render_plain_block(term);
 
         Ok(())
 

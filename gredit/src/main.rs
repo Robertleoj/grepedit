@@ -3,7 +3,7 @@
 
 use std::error::Error;
 
-use grepedit::build_log_config;
+use gredit::build_log_config;
 #[macro_use]
 extern crate simple_log;
 
@@ -14,7 +14,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     info!("started app");
 
-    grepedit::run()?;
+    gredit::run()?;
 
     Ok(())
 }
