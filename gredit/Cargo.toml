@@ -8,10 +8,12 @@ edition = "2021"
 [dependencies]
 crossbeam-channel = "0.5.6"
 crossterm = "0.24.0"
-edit = "0.1.4"
+# edit = "0.1.4"
+edit = {path = '../edit'}
 grep = "0.2.10"
 regex = "1.6.0"
 simple-log = "1.6.0"
 syntect = "5.0.0"
 tui = "0.18.0"
+
 

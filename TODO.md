@@ -1,12 +1,15 @@
 * Grep in multiple files, or recursively
     * That is, add more options for grepping
+    * Treeify the left side
 
-* clone the edit crate to try to jump to line number
+* Beautify the left side
+    * Color code (match and selected), indent, etc
+
+* Wrap the left sides instead of cutting
+
+* test the edit crate with other editors
 
 * Do proper error handling
 
-* Display code in the code block
-
 * Refactor and modularize
 
-* Read the correct file lol

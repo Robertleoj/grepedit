@@ -3,7 +3,7 @@
 use tui::{
     backend::{CrosstermBackend, Backend},
     Terminal,
-    widgets::{Widget, Block, Borders, List, ListItem, ListState, Paragraph},
+    widgets::{Widget, Block, Borders, List, ListItem, ListState, Paragraph, Wrap},
     layout::{Layout, Constraint, Direction},
     Frame,
     style::{Color, Style, Modifier},
@@ -18,7 +18,7 @@ use crossterm::{
     terminal::{disable_raw_mode, enable_raw_mode, EnterAlternateScreen, LeaveAlternateScreen},
 };
 
-use edit::edit_file;
+use edit::edit_file_line_nr;
 
 use std::error::Error;
 use std::cmp::{min, max};
@@ -223,14 +223,11 @@ impl<'a> App<'a> {
         FileLocation { file_path: &curr_result.file_path, line_nr: curr_match.line_nr }
     }
 
-
     fn open_file(
         &mut self, 
     ) -> Result<(), Box<dyn Error>> {
 
-        edit_file(self.curr_file_location().file_path).unwrap();
-        let mut stdout = io::stdout();
-        execute!(stdout, EnterAlternateScreen, EnableMouseCapture)?;
+        edit_file_line_nr(self.curr_file_location().file_path, self.line_nr()).unwrap();
 
         Ok(())
     }
@@ -270,6 +267,7 @@ impl<'a> App<'a> {
                             KeyCode::Enter => {
                                 info!("Pressed Enter");
 
+                                terminal.clear().unwrap();
                                 self.open_file().unwrap();
 
                                 let mut stdout = io::stdout();
@@ -341,16 +339,24 @@ impl<'a> App<'a> {
             let text_space = codeblock.inner(codechunk);
 
 
+            let height = codeblock.inner(codechunk).height as u64;
+
             let line_nr = self.line_nr();
+            info!("line nr {}", line_nr);
 
-            let line_lower = line_nr.saturating_sub(10);
+            let line_lower = line_nr.saturating_sub(height/2);
+            info!("line lower {}", line_lower);
 
-            let line_upper = std::cmp::min(line_nr + 20, self.curr_file.len() as u64);
+            let line_upper = std::cmp::min(line_lower + height, self.curr_file.len() as u64);
+            info!("line upper {}", line_upper);
+
             let p = Paragraph::new::<Vec<_>>(
                 self.make_styled()[(line_lower as usize)..(line_upper as usize)]
                     .iter().map(|l|{
                         l.clone()
                     }).collect()
+            ).wrap(
+                Wrap {trim: false}
             ).block(
                 codeblock
             );
