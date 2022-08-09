@@ -3,11 +3,12 @@ use std::io::{self, Read};
 use std::fs;
 
 
-use grep::searcher::Searcher;
-use grep::searcher::Sink;
-use grep::searcher::SinkMatch;
+use grep::searcher::{
+    Searcher,
+    Sink,
+    SinkMatch
+};
 use grep::regex::RegexMatcher;
-
 
 
 pub fn search_file(
