@@ -122,3 +122,627 @@
 2022-08-09 23:55:21.405754636 [INFO] <gredit::app:345>:line nr 53
 2022-08-09 23:55:21.405820285 [INFO] <gredit::app:348>:line lower 37
 2022-08-09 23:55:21.405855764 [INFO] <gredit::app:351>:line upper 69
+2022-08-10 19:20:56.128937363 [INFO] <gredit::app:345>:line nr 42
+2022-08-10 19:20:56.129059831 [INFO] <gredit::app:348>:line lower 27
+2022-08-10 19:20:56.129083151 [INFO] <gredit::app:351>:line upper 57
+2022-08-10 19:20:56.134434132 [INFO] <gredit::app:250>:Entering main loop
+2022-08-10 19:20:57.115765703 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:57.117460538 [INFO] <gredit::app:345>:line nr 43
+2022-08-10 19:20:57.117492427 [INFO] <gredit::app:348>:line lower 28
+2022-08-10 19:20:57.117513317 [INFO] <gredit::app:351>:line upper 58
+2022-08-10 19:20:57.267837013 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:57.269455569 [INFO] <gredit::app:345>:line nr 45
+2022-08-10 19:20:57.269485539 [INFO] <gredit::app:348>:line lower 30
+2022-08-10 19:20:57.269505389 [INFO] <gredit::app:351>:line upper 60
+2022-08-10 19:20:57.435478077 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:57.437060234 [INFO] <gredit::app:345>:line nr 46
+2022-08-10 19:20:57.437090734 [INFO] <gredit::app:348>:line lower 31
+2022-08-10 19:20:57.437110563 [INFO] <gredit::app:351>:line upper 61
+2022-08-10 19:20:57.540717741 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:57.542247949 [INFO] <gredit::app:345>:line nr 48
+2022-08-10 19:20:57.542281008 [INFO] <gredit::app:348>:line lower 33
+2022-08-10 19:20:57.542301338 [INFO] <gredit::app:351>:line upper 63
+2022-08-10 19:20:57.871089890 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:57.873367127 [INFO] <gredit::app:345>:line nr 51
+2022-08-10 19:20:57.873398516 [INFO] <gredit::app:348>:line lower 36
+2022-08-10 19:20:57.873419726 [INFO] <gredit::app:351>:line upper 66
+2022-08-10 19:20:57.964263360 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:57.965951656 [INFO] <gredit::app:345>:line nr 53
+2022-08-10 19:20:57.965981235 [INFO] <gredit::app:348>:line lower 38
+2022-08-10 19:20:57.966001005 [INFO] <gredit::app:351>:line upper 68
+2022-08-10 19:20:57.971335207 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:57.972841556 [INFO] <gredit::app:345>:line nr 89
+2022-08-10 19:20:57.972874335 [INFO] <gredit::app:348>:line lower 74
+2022-08-10 19:20:57.972893955 [INFO] <gredit::app:351>:line upper 104
+2022-08-10 19:20:57.977688004 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:57.979271531 [INFO] <gredit::app:345>:line nr 91
+2022-08-10 19:20:57.979300381 [INFO] <gredit::app:348>:line lower 76
+2022-08-10 19:20:57.979319881 [INFO] <gredit::app:351>:line upper 106
+2022-08-10 19:20:58.222617900 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:58.224427874 [INFO] <gredit::app:345>:line nr 93
+2022-08-10 19:20:58.224459383 [INFO] <gredit::app:348>:line lower 78
+2022-08-10 19:20:58.224479393 [INFO] <gredit::app:351>:line upper 108
+2022-08-10 19:20:58.382656325 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:58.384289391 [INFO] <gredit::app:345>:line nr 95
+2022-08-10 19:20:58.384319541 [INFO] <gredit::app:348>:line lower 80
+2022-08-10 19:20:58.384338961 [INFO] <gredit::app:351>:line upper 110
+2022-08-10 19:20:58.543470208 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:58.545079715 [INFO] <gredit::app:345>:line nr 96
+2022-08-10 19:20:58.545110484 [INFO] <gredit::app:348>:line lower 81
+2022-08-10 19:20:58.545131194 [INFO] <gredit::app:351>:line upper 111
+2022-08-10 19:20:58.691503148 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:58.693703576 [INFO] <gredit::app:345>:line nr 109
+2022-08-10 19:20:58.693777225 [INFO] <gredit::app:348>:line lower 94
+2022-08-10 19:20:58.693822134 [INFO] <gredit::app:351>:line upper 124
+2022-08-10 19:20:58.832411272 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:58.834022018 [INFO] <gredit::app:345>:line nr 112
+2022-08-10 19:20:58.834052488 [INFO] <gredit::app:348>:line lower 97
+2022-08-10 19:20:58.834072368 [INFO] <gredit::app:351>:line upper 127
+2022-08-10 19:20:58.977469645 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:58.980385013 [INFO] <gredit::app:345>:line nr 113
+2022-08-10 19:20:58.980444252 [INFO] <gredit::app:348>:line lower 98
+2022-08-10 19:20:58.980483491 [INFO] <gredit::app:351>:line upper 128
+2022-08-10 19:20:59.128434452 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:59.130191836 [INFO] <gredit::app:345>:line nr 114
+2022-08-10 19:20:59.130220716 [INFO] <gredit::app:348>:line lower 99
+2022-08-10 19:20:59.130240016 [INFO] <gredit::app:351>:line upper 129
+2022-08-10 19:20:59.428677691 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:59.430269628 [INFO] <gredit::app:345>:line nr 115
+2022-08-10 19:20:59.430299007 [INFO] <gredit::app:348>:line lower 100
+2022-08-10 19:20:59.430319027 [INFO] <gredit::app:351>:line upper 130
+2022-08-10 19:20:59.622016110 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:59.623681605 [INFO] <gredit::app:345>:line nr 121
+2022-08-10 19:20:59.623717305 [INFO] <gredit::app:348>:line lower 106
+2022-08-10 19:20:59.623741684 [INFO] <gredit::app:351>:line upper 136
+2022-08-10 19:20:59.782355590 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:59.783961197 [INFO] <gredit::app:345>:line nr 138
+2022-08-10 19:20:59.783992236 [INFO] <gredit::app:348>:line lower 123
+2022-08-10 19:20:59.784012196 [INFO] <gredit::app:351>:line upper 153
+2022-08-10 19:20:59.930532547 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:20:59.932266812 [INFO] <gredit::app:345>:line nr 156
+2022-08-10 19:20:59.932296182 [INFO] <gredit::app:348>:line lower 141
+2022-08-10 19:20:59.932315971 [INFO] <gredit::app:351>:line upper 171
+2022-08-10 19:21:00.076414879 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:00.077997846 [INFO] <gredit::app:345>:line nr 158
+2022-08-10 19:21:00.078026966 [INFO] <gredit::app:348>:line lower 143
+2022-08-10 19:21:00.078046705 [INFO] <gredit::app:351>:line upper 173
+2022-08-10 19:21:00.227295108 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:00.228838045 [INFO] <gredit::app:345>:line nr 183
+2022-08-10 19:21:00.228868535 [INFO] <gredit::app:348>:line lower 168
+2022-08-10 19:21:00.228889214 [INFO] <gredit::app:351>:line upper 198
+2022-08-10 19:21:00.382558572 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:00.384306386 [INFO] <gredit::app:345>:line nr 184
+2022-08-10 19:21:00.384336896 [INFO] <gredit::app:348>:line lower 169
+2022-08-10 19:21:00.384356576 [INFO] <gredit::app:351>:line upper 199
+2022-08-10 19:21:00.545434845 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:00.547000822 [INFO] <gredit::app:345>:line nr 186
+2022-08-10 19:21:00.547036392 [INFO] <gredit::app:348>:line lower 171
+2022-08-10 19:21:00.547056611 [INFO] <gredit::app:351>:line upper 201
+2022-08-10 19:21:01.051785435 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.053377132 [INFO] <gredit::app:345>:line nr 219
+2022-08-10 19:21:01.053407832 [INFO] <gredit::app:348>:line lower 204
+2022-08-10 19:21:01.053427712 [INFO] <gredit::app:351>:line upper 234
+2022-08-10 19:21:01.206220412 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.207828109 [INFO] <gredit::app:345>:line nr 221
+2022-08-10 19:21:01.207857269 [INFO] <gredit::app:348>:line lower 206
+2022-08-10 19:21:01.207876488 [INFO] <gredit::app:351>:line upper 236
+2022-08-10 19:21:01.541451361 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.543244154 [INFO] <gredit::app:345>:line nr 242
+2022-08-10 19:21:01.543273864 [INFO] <gredit::app:348>:line lower 227
+2022-08-10 19:21:01.543294044 [INFO] <gredit::app:351>:line upper 257
+2022-08-10 19:21:01.647147228 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.648753345 [INFO] <gredit::app:345>:line nr 245
+2022-08-10 19:21:01.648783004 [INFO] <gredit::app:348>:line lower 230
+2022-08-10 19:21:01.648802554 [INFO] <gredit::app:351>:line upper 260
+2022-08-10 19:21:01.653795941 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.655369618 [INFO] <gredit::app:345>:line nr 246
+2022-08-10 19:21:01.655398278 [INFO] <gredit::app:348>:line lower 231
+2022-08-10 19:21:01.655417938 [INFO] <gredit::app:351>:line upper 261
+2022-08-10 19:21:01.660290956 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.661869404 [INFO] <gredit::app:345>:line nr 253
+2022-08-10 19:21:01.661898353 [INFO] <gredit::app:348>:line lower 238
+2022-08-10 19:21:01.661917713 [INFO] <gredit::app:351>:line upper 268
+2022-08-10 19:21:01.758268157 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.759918643 [INFO] <gredit::app:345>:line nr 273
+2022-08-10 19:21:01.759947753 [INFO] <gredit::app:348>:line lower 258
+2022-08-10 19:21:01.759967942 [INFO] <gredit::app:351>:line upper 288
+2022-08-10 19:21:01.765484751 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.767061658 [INFO] <gredit::app:345>:line nr 310
+2022-08-10 19:21:01.767090308 [INFO] <gredit::app:348>:line lower 295
+2022-08-10 19:21:01.767109648 [INFO] <gredit::app:351>:line upper 325
+2022-08-10 19:21:01.772338922 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.773938608 [INFO] <gredit::app:345>:line nr 319
+2022-08-10 19:21:01.773967188 [INFO] <gredit::app:348>:line lower 304
+2022-08-10 19:21:01.773986638 [INFO] <gredit::app:351>:line upper 334
+2022-08-10 19:21:01.779307780 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.780910246 [INFO] <gredit::app:345>:line nr 321
+2022-08-10 19:21:01.780940756 [INFO] <gredit::app:348>:line lower 306
+2022-08-10 19:21:01.780960486 [INFO] <gredit::app:351>:line upper 336
+2022-08-10 19:21:01.849347108 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.850999103 [INFO] <gredit::app:345>:line nr 326
+2022-08-10 19:21:01.851029473 [INFO] <gredit::app:348>:line lower 311
+2022-08-10 19:21:01.851049783 [INFO] <gredit::app:351>:line upper 341
+2022-08-10 19:21:01.856406855 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.858010571 [INFO] <gredit::app:345>:line nr 335
+2022-08-10 19:21:01.858039451 [INFO] <gredit::app:348>:line lower 320
+2022-08-10 19:21:01.858058891 [INFO] <gredit::app:351>:line upper 350
+2022-08-10 19:21:01.863311544 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.864939451 [INFO] <gredit::app:345>:line nr 339
+2022-08-10 19:21:01.864969020 [INFO] <gredit::app:348>:line lower 324
+2022-08-10 19:21:01.864988650 [INFO] <gredit::app:351>:line upper 354
+2022-08-10 19:21:01.954229937 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.956803080 [INFO] <gredit::app:345>:line nr 342
+2022-08-10 19:21:01.956836019 [INFO] <gredit::app:348>:line lower 327
+2022-08-10 19:21:01.956855919 [INFO] <gredit::app:351>:line upper 357
+2022-08-10 19:21:01.962008414 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.963620000 [INFO] <gredit::app:345>:line nr 344
+2022-08-10 19:21:01.963648830 [INFO] <gredit::app:348>:line lower 329
+2022-08-10 19:21:01.963668710 [INFO] <gredit::app:351>:line upper 359
+2022-08-10 19:21:01.968859034 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:01.970442391 [INFO] <gredit::app:345>:line nr 347
+2022-08-10 19:21:01.970471410 [INFO] <gredit::app:348>:line lower 332
+2022-08-10 19:21:01.970491100 [INFO] <gredit::app:351>:line upper 362
+2022-08-10 19:21:02.051606627 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.053278712 [INFO] <gredit::app:345>:line nr 350
+2022-08-10 19:21:02.053309372 [INFO] <gredit::app:348>:line lower 335
+2022-08-10 19:21:02.053329342 [INFO] <gredit::app:351>:line upper 365
+2022-08-10 19:21:02.059648599 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.061635700 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.061665940 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.061685959 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.066938723 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.068521990 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.068551869 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.068571769 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.073395099 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.075000735 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.075029185 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.075048425 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.154924169 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.156480546 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.156513845 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.156534245 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.161310096 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.162900773 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.162929752 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.162949122 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.167662163 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.169249380 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.169279019 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.169298599 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.289222559 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.290865285 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.290894835 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.290914855 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.295767824 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.297674146 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.297706445 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.297726195 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.302420497 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.304026023 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.304055133 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.304073723 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.308813553 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.310407940 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.310437060 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.310456669 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.553655691 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.555445464 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.555475534 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.555495534 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.729357487 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.730952993 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.730982663 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.731002583 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:02.898335511 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:02.899917948 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:02.899946988 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:02.899966428 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:03.101565616 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:03.103354459 [INFO] <gredit::app:345>:line nr 353
+2022-08-10 19:21:03.103383629 [INFO] <gredit::app:348>:line lower 338
+2022-08-10 19:21:03.103403359 [INFO] <gredit::app:351>:line upper 368
+2022-08-10 19:21:03.262494017 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:03.264263132 [INFO] <gredit::app:345>:line nr 350
+2022-08-10 19:21:03.264292901 [INFO] <gredit::app:348>:line lower 335
+2022-08-10 19:21:03.264312401 [INFO] <gredit::app:351>:line upper 365
+2022-08-10 19:21:03.466401642 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:03.468215105 [INFO] <gredit::app:345>:line nr 347
+2022-08-10 19:21:03.468248395 [INFO] <gredit::app:348>:line lower 332
+2022-08-10 19:21:03.468268245 [INFO] <gredit::app:351>:line upper 362
+2022-08-10 19:21:03.620558733 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:03.622161619 [INFO] <gredit::app:345>:line nr 344
+2022-08-10 19:21:03.622191069 [INFO] <gredit::app:348>:line lower 329
+2022-08-10 19:21:03.622210849 [INFO] <gredit::app:351>:line upper 359
+2022-08-10 19:21:03.788544222 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:03.790186028 [INFO] <gredit::app:345>:line nr 342
+2022-08-10 19:21:03.790216087 [INFO] <gredit::app:348>:line lower 327
+2022-08-10 19:21:03.790236037 [INFO] <gredit::app:351>:line upper 357
+2022-08-10 19:21:03.917623898 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:03.919366923 [INFO] <gredit::app:345>:line nr 339
+2022-08-10 19:21:03.919397222 [INFO] <gredit::app:348>:line lower 324
+2022-08-10 19:21:03.919415692 [INFO] <gredit::app:351>:line upper 354
+2022-08-10 19:21:04.251756972 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.253367939 [INFO] <gredit::app:345>:line nr 335
+2022-08-10 19:21:04.253398598 [INFO] <gredit::app:348>:line lower 320
+2022-08-10 19:21:04.253419088 [INFO] <gredit::app:351>:line upper 350
+2022-08-10 19:21:04.336690673 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.338311509 [INFO] <gredit::app:345>:line nr 326
+2022-08-10 19:21:04.338354289 [INFO] <gredit::app:348>:line lower 311
+2022-08-10 19:21:04.338392048 [INFO] <gredit::app:351>:line upper 341
+2022-08-10 19:21:04.343499364 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.345107010 [INFO] <gredit::app:345>:line nr 321
+2022-08-10 19:21:04.345136890 [INFO] <gredit::app:348>:line lower 306
+2022-08-10 19:21:04.345156869 [INFO] <gredit::app:351>:line upper 336
+2022-08-10 19:21:04.350231415 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.351815703 [INFO] <gredit::app:345>:line nr 319
+2022-08-10 19:21:04.351844092 [INFO] <gredit::app:348>:line lower 304
+2022-08-10 19:21:04.351863392 [INFO] <gredit::app:351>:line upper 334
+2022-08-10 19:21:04.422391553 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.424156907 [INFO] <gredit::app:345>:line nr 310
+2022-08-10 19:21:04.424186746 [INFO] <gredit::app:348>:line lower 295
+2022-08-10 19:21:04.424206316 [INFO] <gredit::app:351>:line upper 325
+2022-08-10 19:21:04.429061115 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.430651142 [INFO] <gredit::app:345>:line nr 273
+2022-08-10 19:21:04.430679972 [INFO] <gredit::app:348>:line lower 258
+2022-08-10 19:21:04.430699741 [INFO] <gredit::app:351>:line upper 288
+2022-08-10 19:21:04.529438441 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.531064267 [INFO] <gredit::app:345>:line nr 253
+2022-08-10 19:21:04.531093646 [INFO] <gredit::app:348>:line lower 238
+2022-08-10 19:21:04.531113436 [INFO] <gredit::app:351>:line upper 268
+2022-08-10 19:21:04.536376280 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.537982136 [INFO] <gredit::app:345>:line nr 246
+2022-08-10 19:21:04.538010936 [INFO] <gredit::app:348>:line lower 231
+2022-08-10 19:21:04.538030375 [INFO] <gredit::app:351>:line upper 261
+2022-08-10 19:21:04.542893114 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.544480001 [INFO] <gredit::app:345>:line nr 245
+2022-08-10 19:21:04.544509861 [INFO] <gredit::app:348>:line lower 230
+2022-08-10 19:21:04.544529340 [INFO] <gredit::app:351>:line upper 260
+2022-08-10 19:21:04.549543278 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.551108215 [INFO] <gredit::app:345>:line nr 242
+2022-08-10 19:21:04.551136694 [INFO] <gredit::app:348>:line lower 227
+2022-08-10 19:21:04.551156064 [INFO] <gredit::app:351>:line upper 257
+2022-08-10 19:21:04.642064347 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.643686524 [INFO] <gredit::app:345>:line nr 221
+2022-08-10 19:21:04.643715893 [INFO] <gredit::app:348>:line lower 206
+2022-08-10 19:21:04.643736023 [INFO] <gredit::app:351>:line upper 236
+2022-08-10 19:21:04.648578722 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.650177779 [INFO] <gredit::app:345>:line nr 219
+2022-08-10 19:21:04.650207629 [INFO] <gredit::app:348>:line lower 204
+2022-08-10 19:21:04.650227288 [INFO] <gredit::app:351>:line upper 234
+2022-08-10 19:21:04.655073358 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.656691734 [INFO] <gredit::app:345>:line nr 186
+2022-08-10 19:21:04.656722203 [INFO] <gredit::app:348>:line lower 171
+2022-08-10 19:21:04.656742453 [INFO] <gredit::app:351>:line upper 201
+2022-08-10 19:21:04.661595002 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.663185929 [INFO] <gredit::app:345>:line nr 184
+2022-08-10 19:21:04.663214719 [INFO] <gredit::app:348>:line lower 169
+2022-08-10 19:21:04.663234299 [INFO] <gredit::app:351>:line upper 199
+2022-08-10 19:21:04.744074338 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.745725175 [INFO] <gredit::app:345>:line nr 183
+2022-08-10 19:21:04.745755204 [INFO] <gredit::app:348>:line lower 168
+2022-08-10 19:21:04.745774944 [INFO] <gredit::app:351>:line upper 198
+2022-08-10 19:21:04.750647173 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.752233160 [INFO] <gredit::app:345>:line nr 158
+2022-08-10 19:21:04.752262799 [INFO] <gredit::app:348>:line lower 143
+2022-08-10 19:21:04.752282449 [INFO] <gredit::app:351>:line upper 173
+2022-08-10 19:21:04.757122008 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.758720205 [INFO] <gredit::app:345>:line nr 156
+2022-08-10 19:21:04.758749155 [INFO] <gredit::app:348>:line lower 141
+2022-08-10 19:21:04.758767524 [INFO] <gredit::app:351>:line upper 171
+2022-08-10 19:21:04.839292560 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.840904516 [INFO] <gredit::app:345>:line nr 138
+2022-08-10 19:21:04.840934576 [INFO] <gredit::app:348>:line lower 123
+2022-08-10 19:21:04.840954455 [INFO] <gredit::app:351>:line upper 153
+2022-08-10 19:21:04.845717726 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.847317762 [INFO] <gredit::app:345>:line nr 121
+2022-08-10 19:21:04.847346542 [INFO] <gredit::app:348>:line lower 106
+2022-08-10 19:21:04.847366151 [INFO] <gredit::app:351>:line upper 136
+2022-08-10 19:21:04.852220941 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:04.853809138 [INFO] <gredit::app:345>:line nr 115
+2022-08-10 19:21:04.853837827 [INFO] <gredit::app:348>:line lower 100
+2022-08-10 19:21:04.853857287 [INFO] <gredit::app:351>:line upper 130
+2022-08-10 19:21:05.055708621 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:05.057289178 [INFO] <gredit::app:345>:line nr 114
+2022-08-10 19:21:05.057319858 [INFO] <gredit::app:348>:line lower 99
+2022-08-10 19:21:05.057340287 [INFO] <gredit::app:351>:line upper 129
+2022-08-10 19:21:05.281643624 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:05.283357910 [INFO] <gredit::app:345>:line nr 113
+2022-08-10 19:21:05.283387419 [INFO] <gredit::app:348>:line lower 98
+2022-08-10 19:21:05.283406949 [INFO] <gredit::app:351>:line upper 128
+2022-08-10 19:21:05.577832952 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:05.579534667 [INFO] <gredit::app:345>:line nr 112
+2022-08-10 19:21:05.579568827 [INFO] <gredit::app:348>:line lower 97
+2022-08-10 19:21:05.579589187 [INFO] <gredit::app:351>:line upper 127
+2022-08-10 19:21:05.797600846 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:05.800806089 [INFO] <gredit::app:345>:line nr 109
+2022-08-10 19:21:05.800868688 [INFO] <gredit::app:348>:line lower 94
+2022-08-10 19:21:05.800908487 [INFO] <gredit::app:351>:line upper 124
+2022-08-10 19:21:06.057685201 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:06.060701256 [INFO] <gredit::app:345>:line nr 96
+2022-08-10 19:21:06.060732546 [INFO] <gredit::app:348>:line lower 81
+2022-08-10 19:21:06.060752626 [INFO] <gredit::app:351>:line upper 111
+2022-08-10 19:21:06.236419262 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:06.239507248 [INFO] <gredit::app:345>:line nr 95
+2022-08-10 19:21:06.239565027 [INFO] <gredit::app:348>:line lower 80
+2022-08-10 19:21:06.239604706 [INFO] <gredit::app:351>:line upper 110
+2022-08-10 19:21:06.406517731 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:06.408134467 [INFO] <gredit::app:345>:line nr 93
+2022-08-10 19:21:06.408175816 [INFO] <gredit::app:348>:line lower 78
+2022-08-10 19:21:06.408197286 [INFO] <gredit::app:351>:line upper 108
+2022-08-10 19:21:06.558536032 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:06.560359906 [INFO] <gredit::app:345>:line nr 91
+2022-08-10 19:21:06.560393045 [INFO] <gredit::app:348>:line lower 76
+2022-08-10 19:21:06.560413045 [INFO] <gredit::app:351>:line upper 106
+2022-08-10 19:21:06.710602084 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:06.712192720 [INFO] <gredit::app:345>:line nr 89
+2022-08-10 19:21:06.712226580 [INFO] <gredit::app:348>:line lower 74
+2022-08-10 19:21:06.712247449 [INFO] <gredit::app:351>:line upper 104
+2022-08-10 19:21:06.862560486 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:06.864199702 [INFO] <gredit::app:345>:line nr 53
+2022-08-10 19:21:06.864229842 [INFO] <gredit::app:348>:line lower 38
+2022-08-10 19:21:06.864249742 [INFO] <gredit::app:351>:line upper 68
+2022-08-10 19:21:07.072138308 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:07.073882623 [INFO] <gredit::app:345>:line nr 51
+2022-08-10 19:21:07.073913073 [INFO] <gredit::app:348>:line lower 36
+2022-08-10 19:21:07.073933452 [INFO] <gredit::app:351>:line upper 66
+2022-08-10 19:21:07.158611217 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:07.160196434 [INFO] <gredit::app:345>:line nr 48
+2022-08-10 19:21:07.160226763 [INFO] <gredit::app:348>:line lower 33
+2022-08-10 19:21:07.160246723 [INFO] <gredit::app:351>:line upper 63
+2022-08-10 19:21:07.313613275 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:07.315232901 [INFO] <gredit::app:345>:line nr 46
+2022-08-10 19:21:07.315262821 [INFO] <gredit::app:348>:line lower 31
+2022-08-10 19:21:07.315282621 [INFO] <gredit::app:351>:line upper 61
+2022-08-10 19:21:07.460619030 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:07.462140768 [INFO] <gredit::app:345>:line nr 45
+2022-08-10 19:21:07.462173888 [INFO] <gredit::app:348>:line lower 30
+2022-08-10 19:21:07.462194357 [INFO] <gredit::app:351>:line upper 60
+2022-08-10 19:21:07.643096878 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:07.644764714 [INFO] <gredit::app:345>:line nr 43
+2022-08-10 19:21:07.644795383 [INFO] <gredit::app:348>:line lower 28
+2022-08-10 19:21:07.644815453 [INFO] <gredit::app:351>:line upper 58
+2022-08-10 19:21:07.763465801 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:07.765045988 [INFO] <gredit::app:345>:line nr 42
+2022-08-10 19:21:07.765076118 [INFO] <gredit::app:348>:line lower 27
+2022-08-10 19:21:07.765095748 [INFO] <gredit::app:351>:line upper 57
+2022-08-10 19:21:07.914232962 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:07.915975716 [INFO] <gredit::app:345>:line nr 42
+2022-08-10 19:21:07.916005636 [INFO] <gredit::app:348>:line lower 27
+2022-08-10 19:21:07.916025545 [INFO] <gredit::app:351>:line upper 57
+2022-08-10 19:21:08.060648575 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:08.062259202 [INFO] <gredit::app:345>:line nr 42
+2022-08-10 19:21:08.062288711 [INFO] <gredit::app:348>:line lower 27
+2022-08-10 19:21:08.062308751 [INFO] <gredit::app:351>:line upper 57
+2022-08-10 19:21:08.220319585 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:08.221919012 [INFO] <gredit::app:345>:line nr 42
+2022-08-10 19:21:08.221948802 [INFO] <gredit::app:348>:line lower 27
+2022-08-10 19:21:08.221969351 [INFO] <gredit::app:351>:line upper 57
+2022-08-10 19:21:09.175609557 [INFO] <gredit::app:260>:Pressed UP
+2022-08-10 19:21:09.177827924 [INFO] <gredit::app:345>:line nr 42
+2022-08-10 19:21:09.177885103 [INFO] <gredit::app:348>:line lower 27
+2022-08-10 19:21:09.177923193 [INFO] <gredit::app:351>:line upper 57
+2022-08-10 19:21:09.999794541 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:10.001410137 [INFO] <gredit::app:345>:line nr 43
+2022-08-10 19:21:10.001440787 [INFO] <gredit::app:348>:line lower 28
+2022-08-10 19:21:10.001459757 [INFO] <gredit::app:351>:line upper 58
+2022-08-10 19:21:10.460595518 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:10.462201174 [INFO] <gredit::app:345>:line nr 45
+2022-08-10 19:21:10.462230634 [INFO] <gredit::app:348>:line lower 30
+2022-08-10 19:21:10.462250173 [INFO] <gredit::app:351>:line upper 60
+2022-08-10 19:21:10.716646672 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:10.718281578 [INFO] <gredit::app:345>:line nr 46
+2022-08-10 19:21:10.718311798 [INFO] <gredit::app:348>:line lower 31
+2022-08-10 19:21:10.718331297 [INFO] <gredit::app:351>:line upper 61
+2022-08-10 19:21:10.924482849 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:10.926218524 [INFO] <gredit::app:345>:line nr 48
+2022-08-10 19:21:10.926251504 [INFO] <gredit::app:348>:line lower 33
+2022-08-10 19:21:10.926270353 [INFO] <gredit::app:351>:line upper 63
+2022-08-10 19:21:11.090402008 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:11.091987315 [INFO] <gredit::app:345>:line nr 51
+2022-08-10 19:21:11.092016635 [INFO] <gredit::app:348>:line lower 36
+2022-08-10 19:21:11.092035945 [INFO] <gredit::app:351>:line upper 66
+2022-08-10 19:21:11.253412020 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:11.256428626 [INFO] <gredit::app:345>:line nr 53
+2022-08-10 19:21:11.256494535 [INFO] <gredit::app:348>:line lower 38
+2022-08-10 19:21:11.256536674 [INFO] <gredit::app:351>:line upper 68
+2022-08-10 19:21:11.422418604 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:11.424226988 [INFO] <gredit::app:345>:line nr 89
+2022-08-10 19:21:11.424257958 [INFO] <gredit::app:348>:line lower 74
+2022-08-10 19:21:11.424277877 [INFO] <gredit::app:351>:line upper 104
+2022-08-10 19:21:11.879723302 [INFO] <gredit::app:268>:Pressed Enter
+2022-08-10 19:21:13.951539614 [INFO] <gredit::app:345>:line nr 89
+2022-08-10 19:21:13.951646242 [INFO] <gredit::app:348>:line lower 74
+2022-08-10 19:21:13.951702091 [INFO] <gredit::app:351>:line upper 104
+2022-08-10 19:21:50.592398712 [INFO] <gredit::app:345>:line nr 42
+2022-08-10 19:21:50.592526410 [INFO] <gredit::app:348>:line lower 27
+2022-08-10 19:21:50.592552379 [INFO] <gredit::app:351>:line upper 57
+2022-08-10 19:21:50.598582672 [INFO] <gredit::app:250>:Entering main loop
+2022-08-10 19:21:51.207364563 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:51.209535131 [INFO] <gredit::app:345>:line nr 43
+2022-08-10 19:21:51.209566421 [INFO] <gredit::app:348>:line lower 28
+2022-08-10 19:21:51.209586430 [INFO] <gredit::app:351>:line upper 58
+2022-08-10 19:21:51.541932303 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:51.543791906 [INFO] <gredit::app:345>:line nr 45
+2022-08-10 19:21:51.543822006 [INFO] <gredit::app:348>:line lower 30
+2022-08-10 19:21:51.543841236 [INFO] <gredit::app:351>:line upper 60
+2022-08-10 19:21:51.630103008 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:51.632195067 [INFO] <gredit::app:345>:line nr 46
+2022-08-10 19:21:51.632274366 [INFO] <gredit::app:348>:line lower 31
+2022-08-10 19:21:51.632294066 [INFO] <gredit::app:351>:line upper 61
+2022-08-10 19:21:51.637701567 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:51.639324383 [INFO] <gredit::app:345>:line nr 48
+2022-08-10 19:21:51.639352793 [INFO] <gredit::app:348>:line lower 33
+2022-08-10 19:21:51.639372912 [INFO] <gredit::app:351>:line upper 63
+2022-08-10 19:21:51.644534797 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:51.646154973 [INFO] <gredit::app:345>:line nr 51
+2022-08-10 19:21:51.646190823 [INFO] <gredit::app:348>:line lower 36
+2022-08-10 19:21:51.646216112 [INFO] <gredit::app:351>:line upper 66
+2022-08-10 19:21:51.709139325 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:51.710941979 [INFO] <gredit::app:345>:line nr 53
+2022-08-10 19:21:51.711009588 [INFO] <gredit::app:348>:line lower 38
+2022-08-10 19:21:51.711029847 [INFO] <gredit::app:351>:line upper 68
+2022-08-10 19:21:51.716368329 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:51.717963226 [INFO] <gredit::app:345>:line nr 89
+2022-08-10 19:21:51.717992316 [INFO] <gredit::app:348>:line lower 74
+2022-08-10 19:21:51.718014665 [INFO] <gredit::app:351>:line upper 104
+2022-08-10 19:21:51.722857675 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:21:51.724499841 [INFO] <gredit::app:345>:line nr 91
+2022-08-10 19:21:51.724531821 [INFO] <gredit::app:348>:line lower 76
+2022-08-10 19:21:51.724554850 [INFO] <gredit::app:351>:line upper 106
+2022-08-10 19:21:52.339539371 [INFO] <gredit::app:268>:Pressed Enter
+2022-08-10 19:21:55.112020406 [INFO] <gredit::app:345>:line nr 91
+2022-08-10 19:21:55.112128405 [INFO] <gredit::app:348>:line lower 76
+2022-08-10 19:21:55.112178434 [INFO] <gredit::app:351>:line upper 106
+2022-08-10 19:22:03.635224960 [INFO] <gredit::app:345>:line nr 42
+2022-08-10 19:22:03.635352138 [INFO] <gredit::app:348>:line lower 27
+2022-08-10 19:22:03.635375498 [INFO] <gredit::app:351>:line upper 57
+2022-08-10 19:22:03.640760500 [INFO] <gredit::app:250>:Entering main loop
+2022-08-10 19:22:04.449090362 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:04.450800478 [INFO] <gredit::app:345>:line nr 43
+2022-08-10 19:22:04.450841687 [INFO] <gredit::app:348>:line lower 28
+2022-08-10 19:22:04.450863927 [INFO] <gredit::app:351>:line upper 58
+2022-08-10 19:22:04.782723497 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:04.784435653 [INFO] <gredit::app:345>:line nr 45
+2022-08-10 19:22:04.784466982 [INFO] <gredit::app:348>:line lower 30
+2022-08-10 19:22:04.784487752 [INFO] <gredit::app:351>:line upper 60
+2022-08-10 19:22:04.869953465 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:04.871785239 [INFO] <gredit::app:345>:line nr 46
+2022-08-10 19:22:04.871832928 [INFO] <gredit::app:348>:line lower 31
+2022-08-10 19:22:04.871852258 [INFO] <gredit::app:351>:line upper 61
+2022-08-10 19:22:04.877177730 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:04.878777947 [INFO] <gredit::app:345>:line nr 48
+2022-08-10 19:22:04.878806396 [INFO] <gredit::app:348>:line lower 33
+2022-08-10 19:22:04.878826036 [INFO] <gredit::app:351>:line upper 63
+2022-08-10 19:22:04.883865582 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:04.885438789 [INFO] <gredit::app:345>:line nr 51
+2022-08-10 19:22:04.885471599 [INFO] <gredit::app:348>:line lower 36
+2022-08-10 19:22:04.885490829 [INFO] <gredit::app:351>:line upper 66
+2022-08-10 19:22:04.948043497 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:04.949677583 [INFO] <gredit::app:345>:line nr 53
+2022-08-10 19:22:04.949719472 [INFO] <gredit::app:348>:line lower 38
+2022-08-10 19:22:04.949739202 [INFO] <gredit::app:351>:line upper 68
+2022-08-10 19:22:04.954957406 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:04.956572072 [INFO] <gredit::app:345>:line nr 89
+2022-08-10 19:22:04.956603962 [INFO] <gredit::app:348>:line lower 74
+2022-08-10 19:22:04.956623691 [INFO] <gredit::app:351>:line upper 104
+2022-08-10 19:22:05.058779012 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:05.060668304 [INFO] <gredit::app:345>:line nr 91
+2022-08-10 19:22:05.060720423 [INFO] <gredit::app:348>:line lower 76
+2022-08-10 19:22:05.060739893 [INFO] <gredit::app:351>:line upper 106
+2022-08-10 19:22:05.065662832 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:05.067238968 [INFO] <gredit::app:345>:line nr 93
+2022-08-10 19:22:05.067267708 [INFO] <gredit::app:348>:line lower 78
+2022-08-10 19:22:05.067287028 [INFO] <gredit::app:351>:line upper 108
+2022-08-10 19:22:05.072130468 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:05.073708414 [INFO] <gredit::app:345>:line nr 95
+2022-08-10 19:22:05.073737184 [INFO] <gredit::app:348>:line lower 80
+2022-08-10 19:22:05.073756424 [INFO] <gredit::app:351>:line upper 110
+2022-08-10 19:22:15.419913117 [INFO] <gredit::app:345>:line nr 42
+2022-08-10 19:22:15.420031706 [INFO] <gredit::app:348>:line lower 27
+2022-08-10 19:22:15.420053285 [INFO] <gredit::app:351>:line upper 57
+2022-08-10 19:22:15.425531536 [INFO] <gredit::app:250>:Entering main loop
+2022-08-10 19:22:16.241253952 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:16.242942537 [INFO] <gredit::app:345>:line nr 43
+2022-08-10 19:22:16.242972987 [INFO] <gredit::app:348>:line lower 28
+2022-08-10 19:22:16.242992646 [INFO] <gredit::app:351>:line upper 58
+2022-08-10 19:22:16.391995474 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:16.393674220 [INFO] <gredit::app:345>:line nr 45
+2022-08-10 19:22:16.393703709 [INFO] <gredit::app:348>:line lower 30
+2022-08-10 19:22:16.393722689 [INFO] <gredit::app:351>:line upper 60
+2022-08-10 19:22:16.538192332 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:16.540363920 [INFO] <gredit::app:345>:line nr 46
+2022-08-10 19:22:16.540401200 [INFO] <gredit::app:348>:line lower 31
+2022-08-10 19:22:16.540428879 [INFO] <gredit::app:351>:line upper 61
+2022-08-10 19:22:17.013245796 [INFO] <gredit::app:268>:Pressed Enter
+2022-08-10 19:22:19.806055004 [INFO] <gredit::app:345>:line nr 46
+2022-08-10 19:22:19.806159153 [INFO] <gredit::app:348>:line lower 31
+2022-08-10 19:22:19.806212862 [INFO] <gredit::app:351>:line upper 61
+2022-08-10 19:22:20.395141155 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:20.398385268 [INFO] <gredit::app:345>:line nr 48
+2022-08-10 19:22:20.398449137 [INFO] <gredit::app:348>:line lower 33
+2022-08-10 19:22:20.398501366 [INFO] <gredit::app:351>:line upper 63
+2022-08-10 19:22:20.728854769 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:20.732108012 [INFO] <gredit::app:345>:line nr 51
+2022-08-10 19:22:20.732185981 [INFO] <gredit::app:348>:line lower 36
+2022-08-10 19:22:20.732241460 [INFO] <gredit::app:351>:line upper 66
+2022-08-10 19:22:20.841978540 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:20.845130964 [INFO] <gredit::app:345>:line nr 53
+2022-08-10 19:22:20.845190654 [INFO] <gredit::app:348>:line lower 38
+2022-08-10 19:22:20.845239973 [INFO] <gredit::app:351>:line upper 68
+2022-08-10 19:22:20.855953306 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:20.859129220 [INFO] <gredit::app:345>:line nr 89
+2022-08-10 19:22:20.859189159 [INFO] <gredit::app:348>:line lower 74
+2022-08-10 19:22:20.859240268 [INFO] <gredit::app:351>:line upper 104
+2022-08-10 19:22:20.869572208 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:20.872792351 [INFO] <gredit::app:345>:line nr 91
+2022-08-10 19:22:20.872860840 [INFO] <gredit::app:348>:line lower 76
+2022-08-10 19:22:20.872915089 [INFO] <gredit::app:351>:line upper 106
+2022-08-10 19:22:20.881244548 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:20.883999668 [INFO] <gredit::app:345>:line nr 93
+2022-08-10 19:22:20.884057287 [INFO] <gredit::app:348>:line lower 78
+2022-08-10 19:22:20.884102146 [INFO] <gredit::app:351>:line upper 108
+2022-08-10 19:22:20.932936724 [INFO] <gredit::app:264>:Pressed Down
+2022-08-10 19:22:20.935661754 [INFO] <gredit::app:345>:line nr 95
+2022-08-10 19:22:20.935716104 [INFO] <gredit::app:348>:line lower 80
+2022-08-10 19:22:20.935761443 [INFO] <gredit::app:351>:line upper 110
+2022-08-10 19:22:21.592336530 [INFO] <gredit::app:268>:Pressed Enter
+2022-08-10 19:22:24.028158615 [INFO] <gredit::app:345>:line nr 95
+2022-08-10 19:22:24.028274073 [INFO] <gredit::app:348>:line lower 80
+2022-08-10 19:22:24.028330833 [INFO] <gredit::app:351>:line upper 110
+2022-08-10 19:23:04.345912711 [INFO] <gredit::app:343>:line nr 40
+2022-08-10 19:23:04.346038720 [INFO] <gredit::app:346>:line lower 25
+2022-08-10 19:23:04.346063809 [INFO] <gredit::app:349>:line upper 55
+2022-08-10 19:23:04.351486920 [INFO] <gredit::app:248>:Entering main loop
+2022-08-10 19:23:04.788012458 [INFO] <gredit::app:262>:Pressed Down
+2022-08-10 19:23:04.790143497 [INFO] <gredit::app:343>:line nr 41
+2022-08-10 19:23:04.790177846 [INFO] <gredit::app:346>:line lower 26
+2022-08-10 19:23:04.790198456 [INFO] <gredit::app:349>:line upper 56
+2022-08-10 19:23:04.932032929 [INFO] <gredit::app:262>:Pressed Down
+2022-08-10 19:23:04.934143898 [INFO] <gredit::app:343>:line nr 43
+2022-08-10 19:23:04.934172918 [INFO] <gredit::app:346>:line lower 28
+2022-08-10 19:23:04.934193077 [INFO] <gredit::app:349>:line upper 58
+2022-08-10 19:23:05.077643337 [INFO] <gredit::app:262>:Pressed Down
+2022-08-10 19:23:05.080794261 [INFO] <gredit::app:343>:line nr 44
+2022-08-10 19:23:05.080859200 [INFO] <gredit::app:346>:line lower 29
+2022-08-10 19:23:05.080899579 [INFO] <gredit::app:349>:line upper 59
+2022-08-10 19:23:05.224744113 [INFO] <gredit::app:262>:Pressed Down
+2022-08-10 19:23:05.227795138 [INFO] <gredit::app:343>:line nr 46
+2022-08-10 19:23:05.227852428 [INFO] <gredit::app:346>:line lower 31
+2022-08-10 19:23:05.227891607 [INFO] <gredit::app:349>:line upper 61
+2022-08-10 19:23:05.355623505 [INFO] <gredit::app:262>:Pressed Down
+2022-08-10 19:23:05.358350636 [INFO] <gredit::app:343>:line nr 49
+2022-08-10 19:23:05.358395715 [INFO] <gredit::app:346>:line lower 34
+2022-08-10 19:23:05.358425884 [INFO] <gredit::app:349>:line upper 64
+2022-08-10 19:23:05.890914214 [INFO] <gredit::app:266>:Pressed Enter
+2022-08-10 19:23:11.277013156 [INFO] <gredit::app:343>:line nr 49
+2022-08-10 19:23:11.277085845 [INFO] <gredit::app:346>:line lower 34
+2022-08-10 19:23:11.277106705 [INFO] <gredit::app:349>:line upper 64
+2022-08-10 19:23:12.183945689 [INFO] <gredit::app:262>:Pressed Down
+2022-08-10 19:23:12.185601475 [INFO] <gredit::app:343>:line nr 51
+2022-08-10 19:23:12.185631674 [INFO] <gredit::app:346>:line lower 36
+2022-08-10 19:23:12.185650384 [INFO] <gredit::app:349>:line upper 66
+2022-08-10 19:23:12.333676806 [INFO] <gredit::app:262>:Pressed Down
+2022-08-10 19:23:12.335237344 [INFO] <gredit::app:343>:line nr 87
+2022-08-10 19:23:12.335266263 [INFO] <gredit::app:346>:line lower 72
+2022-08-10 19:23:12.335286143 [INFO] <gredit::app:349>:line upper 102
+2022-08-10 19:23:12.608044018 [INFO] <gredit::app:266>:Pressed Enter
+2022-08-10 19:23:14.321171651 [INFO] <gredit::app:343>:line nr 87
+2022-08-10 19:23:14.321245130 [INFO] <gredit::app:346>:line lower 72
+2022-08-10 19:23:14.321275710 [INFO] <gredit::app:349>:line upper 102
+2022-08-10 19:23:22.105915345 [INFO] <gredit::app:343>:line nr 40
+2022-08-10 19:23:22.106055293 [INFO] <gredit::app:346>:line lower 25
+2022-08-10 19:23:22.106093352 [INFO] <gredit::app:349>:line upper 55
+2022-08-10 19:23:22.111425604 [INFO] <gredit::app:248>:Entering main loop
+2022-08-10 19:23:22.668809192 [INFO] <gredit::app:262>:Pressed Down
+2022-08-10 19:23:22.672107834 [INFO] <gredit::app:343>:line nr 41
+2022-08-10 19:23:22.672198482 [INFO] <gredit::app:346>:line lower 26
+2022-08-10 19:23:22.672254451 [INFO] <gredit::app:349>:line upper 56
+2022-08-10 19:23:22.836685115 [INFO] <gredit::app:262>:Pressed Down
+2022-08-10 19:23:22.839766660 [INFO] <gredit::app:343>:line nr 43
+2022-08-10 19:23:22.839845539 [INFO] <gredit::app:346>:line lower 28
+2022-08-10 19:23:22.839917998 [INFO] <gredit::app:349>:line upper 58
+2022-08-10 19:23:23.178399976 [INFO] <gredit::app:266>:Pressed Enter
+2022-08-10 19:23:26.154899613 [INFO] <gredit::app:343>:line nr 43
+2022-08-10 19:23:26.155002711 [INFO] <gredit::app:346>:line lower 28
+2022-08-10 19:23:26.155054730 [INFO] <gredit::app:349>:line upper 58

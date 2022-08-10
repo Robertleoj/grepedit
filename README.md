@@ -1,5 +1,7 @@
 # `gredit`
 
+NOTE: igrep was very similar to this project, so I forked it, and customized it to fit what I was thinking with this. [Here](https://github.com/Robertleoj/gredit) is the fork! :D
+
 Gredit is a command-line application written in rust that allows you to quickly search in files, browse the context in which matches appear, and jump straight to matching lines in your default editor. 
 
 It is still very early in development, here is a small demo:

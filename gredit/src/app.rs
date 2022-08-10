@@ -10,7 +10,7 @@ use tui::{
     text::{Text, Spans, Span}
 };
 
-use std::{io, fs::File};
+use std::{io};
 use crossterm::{
     self,
     event::{self, DisableMouseCapture, EnableMouseCapture, Event, KeyCode, KeyModifiers},
@@ -21,7 +21,6 @@ use crossterm::{
 use edit::edit_file_line_nr;
 
 use std::error::Error;
-use std::cmp::{min, max};
 
 use super::searcher::{
     FileResult, 
@@ -32,7 +31,6 @@ use syntect::parsing::SyntaxSet;
 // use syntect::highlighting::{ThemeSet, Style};
 use syntect::highlighting as highl;
 
-use syntect::util::as_24_bit_terminal_escaped;
 use syntect::easy::HighlightFile;
 use std::io::BufRead;
 
